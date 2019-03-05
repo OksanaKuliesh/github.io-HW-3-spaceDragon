@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Roboto:500');
+
+* { padding: 0; margin: 0; border: 0; }
+
+
+.main {
+  border: 1px rgb(122, 156, 192) solid;
+  width: 100%;
+  background: rgb(116,140,171);
+  box-sizing: border-box;
+}
+
+/*Первый блок(пятерной)*/
+.container-five {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 35px;
+  background:rgb(116,140,171);
+  color: #fff;
+  line-height: 80%;
+  display: flex;
+  flex-direction: row;
+  border: 1px rgb(152,181,211) solid;
+}
+    
+#first {
+  background: rgb(152,181,211);
+  padding-left: 20px;
+}
+     
+small {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+    
+.m {
+  color: rgb(162,237,242);
+  font-size: 30px;
+}
+    
+.iner-five {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+  align-content: strech;
+  width: 20%;
+  height: 60px;
+  background: rgb(116,140,171);
+  border: 3px rgb(152,181,211) outset; 
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));  
+}
+/*Блок с видео*/
+video {
+  display: inline-block;
+}
+
+poster {
+  display: inline-block
+}
+
+/*Второй блок (четвертной)*/
+.container-second-four-items {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 60px;
+  background-color: rgb(116,140,171);
+  color: #fff;
+  line-height: 60%;
+  display: flex;
+  border: 1px rgb(152,181,211) solid;
+  }
+
+#first-in-second {
+  padding-left: 20px;
+  flex-grow: 2;
+  border: 1px rgb(152,181,211) outset;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+}
+
+#big-time{
+  padding-top: 40px;
+  font-size: 110px;
+}
+
+  .item-iner-second-four {
+  padding-left: 30px;
+  flex-grow: 1;
+  /*background*/
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+  border: 1px rgb(152,181,211) outset;
+}
+
+.graphic-iner-second-four {
+  flex-grow: 1;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+  border: 1px rgb(152,181,211) outset;
+}
+
+.in-div-one {
+  width: 100%;
+  height: 200px; 
+}
+
+.big-text {
+ font-size: 60px;
+ margin: 10px;
+}
+
+.big-text-2 {
+ font-size: 60px;
+ padding-top: 20px;
+ padding-right: 80px;
+}
+
+.small-text {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 15px;
+ margin: 10px;
+}
+
+.m-2 {
+ color: rgb(162,237,242);
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 15px;
+ padding-left: 60px;
+}
+
+.fa-circle {
+ border-radius: 50%;
+ background: rgb(162,237,242);
+ position: relative;
+ top: 1px;
+ margin: 20px;
+}
+
+.m-3 {
+ padding-left: 80px;
+}
+
+.small-bottom-colored {
+ color: rgb(162,237,242);
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 15px;
+}
+
+/*Третий блок*/  
+
+.container-third-one-row {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  color: rgb(200,238,241);
+  height: 120px;
+  border: 1px rgb(152,181,211);
+  display: flex;
+  align: middle;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+}
+  
+  .big-numerals {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 90px;
+  padding-left: 20px;  
+}
+  
+.alarms {
+  font-size: 35px;
+  padding-top: 30px; 
+  padding-left: 20px;
+}
+  
+.systems {
+  font-size: 35px; 
+  padding-left: 550px;
+  padding-top: 30px; 
+}
+
+/*Четвертый блок*/
+#fourth-two-divs {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border: 2px rgb(152,181,211) outset;
+  flex-grow: 1;
+  flex: row;
+  background: linear-gradient(to top, #7B94B8, #55708C);
+}
+
+.inner-fourth {
+  width: 50%;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));  
+  border: 1px rgb(152,181,211) outset;
+}
+
+.in-in-fourth-1 {
+  padding: 25px 50px;
+  flex-grow: 1;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));  
+  border: 1px rgb(152,181,211) outset; 
+}
+
+.in-in-fourth-2 {
+  padding: 25px 50px;
+  display: flex; 
+  flex-grow: 1;
+  flex: row; 
+  justify-content: space-between;
+}
+
+.time {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 55px;
+  color: white;
+}
+
+.small-text-2 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+  color: rgb(180,199,211);
+  font-size: 20px;
+}
+.small-text-3 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 90px;
+  color: rgb(180,199,211);
+  font-size: 20px;
+}
+
+.blue {
+  color: rgb(162,237,242);
+}
+
+.cur-br {
+  padding: 27px 67px 27px 27px;
+}
+
+.disc-sep {
+  width: 85%;
+  margin-left: 50px;
+  border: 2px solid #526C88;
+  border-radius: 3px;
+}
+
+/*Блок Rendezvouz*/
+.container {
+  width: 100%;
+  border: 1px rgb(152,181,211) solid;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: rgb(116,140,171);
+  color: #fff;
+  }
+  
+.row.row-double-header {
+  display: flex;
+  }
+
+.row.row-double-header .header {
+  padding: 10px 15px;
+  display: flex;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+  }
+
+.row.row-double-header .header.header-first {
+  flex-grow: 2;
+  border: 1px rgb(130,161,195) outset;  
+}
+
+.row.row-double-header .header.header-second {
+  flex-grow: 1;
+}
+  
+#progress-value {
+  background: rgb(156,237,241);
+  height: 25px;
+  width: 30%;
+  transition: all 1s ease-in-out;
+}
+  
+.approach {
+  font-size: 13px;
+  position: relative;
+}
+
+.approach-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.approach-cell {
+  flex-basis: 10%;
+  padding: 10px 12px;
+  border-right: 1px rgb(86,114,149) solid;
+  border-bottom: 1px rgb(86,114,149) solid;
+  z-index: 3;
+}
+
+.approach-progress {
+  position: absolute;
+  background: rgb(156,237,241);
+  width: 3px;
+  height: 100%;
+  top: 0px;
+  left: 56%;
+  transition: left 2s linear;
+  z-index: 3;
+}
+
+.approach-block {
+  position: absolute;
+  height: 33px;
+  margin-top: 1px;
+  background: rgb(150,183,216);
+  transition: left 2s linear;
+  z-index: 2;
+}
+
+.approach-block-current {
+  background: rgb(156,237,241);
+}
+
+.approach-block.b-1 {
+  width: 30px;
+  left: 13%;  
+}
+
+.approach-block.b-2 {
+  width: 25px;
+  left: 23%;  
+}
+.approach-block.b-3 {
+  width: 85px;
+  left: 43%;
+}
+.approach-block.b-4 {
+  width: 55px;
+  left: 50%;
+}
+.approach-block.b-5 {
+  width: 35px;
+  left: 31%;
+}
+  
+.approach-row-timeline {
+  background: transparent;
+  height: 30px;
+}
+  
+.approach-row-timeline .approach-cell {
+  border: none;
+  text-align: right;
+  margin-right: -12px;
+  margin-top: -8px;
+  font-size: 10px;
+}
+
+/*Седьмой блок*/
+.container-seven-one-row {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  color: rgb(200,238,241);
+  height: 90px;
+  border-right: 2px rgb(116,140,171) inset;
+  display: flex;
+  align: middle;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+}
+  
+.seven-txt {
+  font-size: 50px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+/*Восьмой блок*/
+.eight-container-five-items {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 90px;
+  background: rgb(116,140,171);
+  color: #fff;
+  line-height: 40%;
+  display: flex;
+  flex-direction: row;
+  border: 1px rgb(152,181,211) inset;
+  border-right: none;
+}
+       
+  .small-in-eight {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 250%;
+    flex-shrink: 2;
+  }
+      
+  .unit-8 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+    margin: 10px; 
+  }
+      
+  .eight-iner-five {
+    padding-left: 25px;
+    vertical-align: middle;
+    border: 1px rgb(152,181,211) inset;
+    flex-grow: 1; 
+    background-color: #6984a1;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180))); 
+  }
+    
+  .fa-arrow-down {
+    font-family: "Font Awesome 5 Free";
+    color: rgb(162,237,242);
+    position: relative;
+    top: -30px;
+    left: 40px;
+  }
+  
+  .bottom-colored {
+    color: rgb(162,237,242);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;   
+  }
+    
+  .little-progress {
+    width: 80%;
+    height: 7px;
+    background: rgb(134,164,198);
+    display: flex;
+    flex-direction: row;
+    border: 1px rgb(134,164,198) solid; 
+    margin-top: 50px; 
+  }
+  
+  .little-progress-2 {
+    width: 200px;
+    height: 9px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px; 
+  }
+  .item-1-2 {
+    background: rgb(134,164,198);
+    border: 1px rgb(134,164,198) solid;
+    width: 33%;
+  }
+  .item-3-4-5 {
+    background: rgb(134,164,198);
+    border: 1px rgb(134,164,198) solid;
+    width: 20%;
+  }
+  .item-1 {
+    background: rgb(162,237,242);
+    border: 1px rgb(162,237,242) solid;
+    width: 20%;
+  }
+  .item-2 {
+    background: rgb(162,237,242);
+    border: 1px rgb(162,237,242) solid;
+    width: 33%;
+  }
+  
+  .item-in-four {
+    background: rgb(162,237,242); 
+    border: 1px rgb(162,237,242) solid;
+    width: 20%;
+  }
+  
+  .item-half {
+    display: flex;
+    width: 20%;
+  }
+  
+  .uncolored-half {
+    background: rgb(134,164,198);
+    border: 1px rgb (134,164,198) solid;
+    width: 100%;
+  }
+  
+  .colored-half{
+    background: rgb(162,237,242);
+    border: 1px rgb(162,237,242) solid;
+    width: 12%;
+  }
+    
+/*Одиннадцатый одинарный блок*/
+.container-eleven-one-row {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  color: #fff;
+  height: 70px;
+  border: 1px rgb(152,181,211) solid;
+  display: flex;
+  flex-grow: 1;
+  align: middle;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+}
+  
+.eleven-rght-txt {
+  font-size: 35px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+  
+.eleven-lft-txt {
+  font-size: 35px;
+  padding-top: 10px;
+  padding-left: 400px;
+}
+@media screen and (max-width: 1400px) {
+.container-second-four-items {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 40px;
+  background-color: rgb(116,140,171);
+  color: #fff;
+  line-height: 60%;
+  display: flex;
+  border: 1px rgb(152,181,211) solid;
+  }
+  
+#first-in-second {
+  padding-left: 10px;
+  flex-grow: 2;
+  border: 1px rgb(152,181,211) outset;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+  }
+  
+#big-time{
+  padding-top: 20px;
+  font-size: 90px;
+  }
+  
+.item-iner-second-four {
+  padding-left: 20px;
+  flex-grow: 1;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+  border: 1px rgb(152,181,211) outset;
+  }
+  
+.graphic-iner-second-four {
+  flex-grow: 1;
+  background-color: #6984a1;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(88, 112, 142)),color-stop(1, rgb(122, 151, 180)));
+  border: 1px rgb(152,181,211) outset;
+  }
+  
+.in-div-one {
+  width: 100%;
+  height: 150px; 
+  }
+  
+.big-text {
+  font-size: 40px;
+  margin: 10px;
+  }
+  
+.big-text-2 {
+  font-size: 40px;
+  padding-top: 10px;
+  padding-right: 50px;
+  }
+  
+.small-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  margin: 10px;
+  }
+  
+.m-2 {
+  color: rgb(162,237,242);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  padding-left: 40px;
+  }
+  
+.fa-circle {
+  border-radius: 50%;
+  background: rgb(162,237,242);
+  position: relative;
+  top: 1px;
+  margin: 20px;
+  }
+  
+.m-3 {
+  padding-left: 50px;
+  }
+  
+.eight-container-five-items {
+  font-size: 60px;
+  flex-wrap: wrap;
+  }
+.fa-arrow-down {
+  font-family: "Font Awesome 5 Free";
+  color: rgb(162,237,242);
+  position: relative;
+  top: -5px;
+  left: 30px;
+  }
+    
+.eleven-rght-txt {
+  font-size: 25px;
+  padding-left: 10px; 
+  }
+
+.eleven-lft-txt {
+  font-size: 25px;
+  padding-left: 300px; 
+  }
+}
+
+  
+  
+  
